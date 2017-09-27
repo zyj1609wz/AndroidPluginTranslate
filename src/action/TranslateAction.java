@@ -45,10 +45,31 @@ public class TranslateAction extends AnAction {
         http.translate(selectText, new TranslateHttp.CallBack() {
             @Override
             public void callback(TranslateBean translateBean) {
-                TranslateBean.WebBean webBean = translateBean.getWeb().get(0);
+                StringBuffer stringBuffer = new StringBuffer();
+
+                String translateResult =  translateBean.getTranslation().toString() + "\n";
+
+                stringBuffer.append(translateResult);
+
+                //添加单词音标
+                TranslateBean.BasicBean basicBean = translateBean.getBasic() ;
+
+                if (basicBean!=null){
+                    //音标
+                    String phonetic =  "英 " + basicBean.getUkphonetic() + "  美 " + basicBean.getUsphonetic() + "\n";
+
+                    //其他词义
+                    String otherTip = "其他词义\n" ;
+                    String other = basicBean.getExplains().toString() ;
+
+                    stringBuffer.append(phonetic);
+                    stringBuffer.append(otherTip);
+                    stringBuffer.append(other);
+                }
+
 
                 //显示一个Popwindow
-                showPopupBalloon(mEditor, webBean.getValue().toString());
+                showPopupBalloon(mEditor, stringBuffer.toString());
             }
         });
 

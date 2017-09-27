@@ -1,6 +1,7 @@
 package http;
 
 import moudle.TranslateBean;
+import org.apache.http.util.TextUtils;
 import util.HttpManager;
 import util.JsonUtil;
 import util.Logger;
@@ -30,6 +31,9 @@ public class TranslateHttp {
                 String result = request(query);
 
                 Logger.info("request result:" + result);
+                if (TextUtils.isEmpty(result)) {
+                    return;
+                }
 
                 //Json 解析
                 TranslateBean translateBean = JsonUtil.fromJson(result, TranslateBean.class);
