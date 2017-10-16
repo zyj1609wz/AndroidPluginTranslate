@@ -5,6 +5,8 @@ Android Studion 翻译插件开发
 
 ![这里写图片描述](gif/gif.gif)
 
+插件市场 https://plugins.jetbrains.com/
+
 ## 博客
 
 [Android Studio 插件开发详解一：入门练手](http://blog.csdn.net/zhaoyanjun6/article/details/78112003)
