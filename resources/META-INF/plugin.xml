@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.zhaoyanjun.AndroidTranslate</id>
   <name>AndroidTranslate</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <vendor email="362299465.com" url="http://blog.csdn.net/zhaoyanjun6.com">赵彦军博客</vendor>
 
   <description><![CDATA[
@@ -10,8 +10,8 @@
     ]]></description>
 
   <change-notes><![CDATA[
-      Android 资源翻译 .<br>
-      Android developer tools
+      Improve the documentation .<br>
+      fix some bugs
     ]]>
   </change-notes>
 
