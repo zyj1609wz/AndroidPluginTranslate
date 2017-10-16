@@ -5,14 +5,13 @@
   <vendor email="362299465.com" url="http://blog.csdn.net/zhaoyanjun6.com">赵彦军博客</vendor>
 
   <description><![CDATA[
-      Android资源中英文翻译<br>
-      Android资源英文异步翻译<br>
-      <em>most HTML tags may be used</em>
+     Android resource translation
+     Android 资源翻译
     ]]></description>
 
   <change-notes><![CDATA[
       Android 资源翻译 .<br>
-      <em>most HTML tags may be used</em>
+      Android developer tools
     ]]>
   </change-notes>
 
