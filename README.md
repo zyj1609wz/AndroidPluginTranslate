@@ -1,5 +1,5 @@
-# PluginTranslate
-Android Studion 翻译插件开发
+# PluginTranslate 介绍
+这是一个Android 单词翻译插件
 
 效果图：
 
