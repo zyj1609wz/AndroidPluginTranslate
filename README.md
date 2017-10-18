@@ -9,7 +9,7 @@ Android Studion 翻译插件开发
 
 在Android Studio 插件市场搜索 `AndroidTranslate`
 
-![这里写图片描述](gif/image2.gif)
+![这里写图片描述](gif/image2.png)
 
 安装完成后，重启 Android Studio 就可以了。
 
