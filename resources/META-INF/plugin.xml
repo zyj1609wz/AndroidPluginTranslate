@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>com.boohee.plugin.translation</id>
+  <id>com.zhaoyanjun.AndroidTranslate</id>
   <name>AndroidTranslate</name>
   <version>1.2</version>
   <vendor email="362299465.com" url="http://blog.csdn.net/zhaoyanjun6">赵彦军博客</vendor>
