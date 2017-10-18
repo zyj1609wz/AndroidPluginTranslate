@@ -1,17 +1,19 @@
 <idea-plugin>
-  <id>com.zhaoyanjun.AndroidTranslate</id>
+  <id>com.boohee.plugin.translation</id>
   <name>AndroidTranslate</name>
-  <version>1.0.1</version>
+  <version>1.2</version>
   <vendor email="362299465.com" url="http://blog.csdn.net/zhaoyanjun6">赵彦军博客</vendor>
 
   <description><![CDATA[
-     Android resource translation
-     Android 资源翻译
+    resource translation for Android Studio
+    <li>1. Choose the word you want translate.</li>
+    <li>2. Press Command + Q.</li>
     ]]></description>
 
   <change-notes><![CDATA[
-      Improve the documentation .<br>
-      fix some bugs
+     <li>1.2 : New: fix some bugs.</li>
+     <li>1.1 : Fixed: Long click bug.</li>
+     <li>1.0 : init </li>
     ]]>
   </change-notes>
 
@@ -20,9 +22,9 @@
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
-  <!-- uncomment to enable plugin in all products
+  <!-- uncomment to enable plugin in all products-->
   <depends>com.intellij.modules.lang</depends>
-  -->
+
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
